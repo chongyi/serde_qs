@@ -193,6 +193,9 @@ mod ser;
 #[cfg(feature = "warp")]
 pub mod warp;
 
+#[cfg(feature = "axum")]
+pub mod axum;
+
 #[doc(inline)]
 pub use de::Config;
 #[doc(inline)]
